@@ -1,0 +1,187 @@
+<html>
+	<head>
+	
+		<title>Cadastro de Infração</title>
+		
+		<link type="text/css" href="style.css" rel="stylesheet" >
+		
+		<script src="jquery.js"></script>
+		
+		<script src="jquery-ui/jquery-ui.js"></script>
+		
+		<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+		
+		<script src="script.js"></script>
+		
+	</head>
+	
+	<body>
+		
+		<center>
+		
+			<h1 id="title_one">CADASTRO DE INFRAÇÃO</h1>
+			
+		</center>
+		
+		<br>
+			
+			
+		
+		
+		<section id="table_one">
+			<p id="title">Dados de veiculo</p>
+		
+			<div>
+				<center>
+			
+					Placa:
+					<input name="placa" id="placa" type="text" placeholder=" Digite a placa" value="" required="required" />
+									
+				
+				
+					Renavam:
+					<input name="renavam" id="renavam" type="number" placeholder=" Digite o Renavam" value="" required="required" />
+					
+					
+					Modelo:
+					<select name="modelo_carro" id="modelo_carro" value="" required="required">
+						<option value="Volkswagen Gol. 17">Volkswagen Gol. 17</option>
+						<option value="Volkswagen CrossFox">Volkswagen CrossFox</option>
+						<option value="Chevrolet Onix 2018">Chevrolet Onix 2018</option>
+						<option value="Chevrolet Cobalt Elite 1.8 2018"> Chevrolet Cobalt Elite 1.8 2018</option>
+						<option value="Fiat Argo">Fiat Argo</option>
+						<option value="Fiat Punto">Fiat Punto</option>
+						<option value="Honda CBR 1000RR Fireblade">Honda CBR 1000RR Fireblade</option>
+						<option value="Honda CG 160 Titan"> Honda CG 160 Titan</option>
+						<option value="Honda Biz 125">Honda Biz 125</option>
+					</select>
+						
+					
+					Marca:
+					<select name="marca_carro" id="marca_carro" value="" required="required">
+						<option value="Honda">Honda</option>
+						<option value="Volkswagen">Volkswagen</option>
+						<option value="Chevrolet">Chevrolet</option>
+						<option value="Fiat">Fiat</option>
+					</select>
+				
+					Categoria:
+					<select name="categoria" id="categoria" value="" required="required">
+						<option value="Selecione">Selecione</option>
+						<option value="Motocicleta">Motocicleta</option>
+						<option value="Carro">Carro</option>
+					</select>
+				
+				</center>
+				
+			</div>
+		</section>
+			
+			<br>
+			<br>
+			
+			<section id="table_two">
+			
+				<p id="title">Dados do proprietario</p>
+			
+				<div>
+					<center>
+				
+						Nome:
+						<input name="nome_one"  type="text" placeholder=" Digite o nome " value="" required="required" />
+										
+						
+						Renavam:
+						<input name="renavam2" type="number" placeholder=" Digite o Renavam " value="" required="required" />
+						
+						
+						Data de Compra:
+						<input name="selecione_data" type="text" id="selecione_data" placeholder="dd/mm/aaaa" value="" required="required" />
+						
+					</center>
+				</div>
+			</section>
+			
+			
+			
+			<br>
+			<br>
+				
+			
+			<section id="section_three">
+			
+				<p id="title">Infrações</p>
+				
+				<table  id="table_three">
+					
+					<tr>
+						<th>Código</th>
+						<th>Descrição</th>
+						<th>Pontos</th>
+						<th>Valor</th>
+						<th>Data</th>
+						<th>Hora</th>
+						
+					</tr>
+					
+					
+					<tr>
+						<td>C&oacutedigo 1 </td>
+						<td>Descri&ccedil;&atilde;o 1 </td>
+						<td>Pontos 1 </td>
+						<td>Valor 1 </td>
+						<td>Data 1 </td>
+						<td>Hora 1 </td>
+					</tr>
+					
+					
+					<tr>
+						
+						<td>C&oacutedigo 2 </td>
+						<td>Descri&ccedil;&atilde;o 2 </td>
+						<td>Pontos 2 </td>
+						<td>Valor 2 </td>
+						<td>Data 2 </td>
+						<td>Hora 2 </td>
+					</tr>
+					
+					
+					<tr>
+						
+						<td>C&oacutedigo 3 </td>
+						<td>Descri&ccedil;&atilde;o 3 </td>
+						<td>Pontos 3 </td>
+						<td>Valor 3 </td>
+						<td>Data 3 </td>
+						<td>Hora 3 </td>
+					</tr>
+					
+					
+					<tr>
+						
+						<td>C&oacutedigo 4 </td>
+						<td>Descri&ccedil;&atilde;o 4 </td>
+						<td>Pontos 4 </td>
+						<td>Valor 4 </td>
+						<td>Data 4 </td>
+						<td>Hora 4 </td>
+					</tr>
+				
+				</table>
+			
+			</section>
+			
+			<br>
+			<br>
+			<div id="buttons">
+				<button id="button_salvar">Salvar</button>
+				<button id="button_imprimir">Imprimir</button>
+				<button id="button_cancelar">Cancelar</button>
+			</div>
+
+
+			
+				
+		
+	</body>
+</html>
